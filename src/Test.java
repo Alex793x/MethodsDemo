@@ -26,7 +26,7 @@ public class Test {
         k4.setName("Tom");
         k4.yearOfBirth = 2000;
         // ---------------------
-        k4.setName("Frederick");
+        k5.setName("Frederick");
         k5.yearOfBirth = 2016;
 
         System.out.println("Kid1s name is: " + k1.getName());
@@ -49,7 +49,12 @@ public class Test {
 
         System.out.println("----------------------------");
 
-
+        // Print the kids from constructor
+        System.out.println("constructor Kid6s name is: " + k6.getName());
+        System.out.println("constructor Kid7s name is: " + k7.getName());
+        System.out.println("constructor Kid8s name is: " + k8.getName());
+        System.out.println("constructor Kid9s name is: " + k9.getName());
+        System.out.println("constructor Kid10s name is: " + k10.getName());
 
     }
 }
