@@ -17,8 +17,8 @@ public class Kid {
 
     }
 
-    public Kid(String kidName) {
-        this.name = kidName;
+    public Kid(String name) {
+        setName(name);
     }
 
 
